@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C007A4D02B918E0A00954B5C /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007A4CF2B918E0A00954B5C /* FeedView.swift */; };
+		C007A4D22B91965B00954B5C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C007A4D12B91965B00954B5C /* FirebaseStorage */; };
+		C007A4D42B91966300954B5C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C007A4D32B91966300954B5C /* FirebaseAuth */; };
 		C02E2A9A2B900E6500B830B0 /* sociallyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E2A992B900E6500B830B0 /* sociallyApp.swift */; };
 		C02E2A9C2B900E6500B830B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E2A9B2B900E6500B830B0 /* ContentView.swift */; };
 		C02E2A9E2B900E6C00B830B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02E2A9D2B900E6C00B830B0 /* Assets.xcassets */; };
@@ -72,7 +74,9 @@
 				C02E2ACB2B9015C600B830B0 /* FirebaseAnalytics in Frameworks */,
 				C02E2ACD2B9015C600B830B0 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 				C02E2AE02B91897A00B830B0 /* FirebaseFirestoreSwift in Frameworks */,
+				C007A4D42B91966300954B5C /* FirebaseAuth in Frameworks */,
 				C02E2AD32B9015C600B830B0 /* FirebaseAppCheck in Frameworks */,
+				C007A4D22B91965B00954B5C /* FirebaseStorage in Frameworks */,
 				C02E2AD12B9015C600B830B0 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				C02E2ADC2B901FC700B830B0 /* FirebaseFirestore in Frameworks */,
 			);
@@ -221,6 +225,8 @@
 				C02E2AD22B9015C600B830B0 /* FirebaseAppCheck */,
 				C02E2ADB2B901FC700B830B0 /* FirebaseFirestore */,
 				C02E2ADF2B91897A00B830B0 /* FirebaseFirestoreSwift */,
+				C007A4D12B91965B00954B5C /* FirebaseStorage */,
+				C007A4D32B91966300954B5C /* FirebaseAuth */,
 			);
 			productName = socially;
 			productReference = C02E2A962B900E6500B830B0 /* socially.app */;
@@ -688,6 +694,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C007A4D12B91965B00954B5C /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C02E2AC92B9015C600B830B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		C007A4D32B91966300954B5C /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C02E2AC92B9015C600B830B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
 		C02E2ACA2B9015C600B830B0 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C02E2AC92B9015C600B830B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

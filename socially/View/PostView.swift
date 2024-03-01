@@ -59,10 +59,10 @@ struct PostView: View {
                         // TODO: Add post
                         Task{
                             // setting it as task is necessary to use the await keyword
-                            await self.viewModel.addData(description: description, datePublished: Date())
+                            await self.viewModel.addData(description: description, datePublished: Date(), data: data!)
                         }
                         presentationMode.wrappedValue.dismiss()
-                    }
+                    }.disabled(data == nil)
                 }
             }
         }
