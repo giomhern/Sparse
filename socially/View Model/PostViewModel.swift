@@ -19,7 +19,8 @@ class PostViewModel: ObservableObject {
         /*
          Why async-await?
             async-await is necessary here for UX, to ensure that a user isn't stuck on a page simply because the data being sent is taking some to upload (code is executed in the background
-         /*
+        */
+        
         do {
             _ = try await databaseReference.addDocument(data: ["description": description, "datePublished": datePublished])
         } catch {

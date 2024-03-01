@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C007A4D02B918E0A00954B5C /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007A4CF2B918E0A00954B5C /* FeedView.swift */; };
 		C02E2A9A2B900E6500B830B0 /* sociallyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E2A992B900E6500B830B0 /* sociallyApp.swift */; };
 		C02E2A9C2B900E6500B830B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E2A9B2B900E6500B830B0 /* ContentView.swift */; };
 		C02E2A9E2B900E6C00B830B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02E2A9D2B900E6C00B830B0 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		C02E2AD92B901F9600B830B0 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E2AD82B901F9600B830B0 /* PostViewModel.swift */; };
 		C02E2ADC2B901FC700B830B0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = C02E2ADB2B901FC700B830B0 /* FirebaseFirestore */; };
 		C02E2ADE2B90223000B830B0 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E2ADD2B90223000B830B0 /* PostView.swift */; };
+		C02E2AE02B91897A00B830B0 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C02E2ADF2B91897A00B830B0 /* FirebaseFirestoreSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C007A4CF2B918E0A00954B5C /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		C02E2A962B900E6500B830B0 /* socially.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socially.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02E2A992B900E6500B830B0 /* sociallyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sociallyApp.swift; sourceTree = "<group>"; };
 		C02E2A9B2B900E6500B830B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +71,7 @@
 				C02E2ACF2B9015C600B830B0 /* FirebaseAnalyticsSwift in Frameworks */,
 				C02E2ACB2B9015C600B830B0 /* FirebaseAnalytics in Frameworks */,
 				C02E2ACD2B9015C600B830B0 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				C02E2AE02B91897A00B830B0 /* FirebaseFirestoreSwift in Frameworks */,
 				C02E2AD32B9015C600B830B0 /* FirebaseAppCheck in Frameworks */,
 				C02E2AD12B9015C600B830B0 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				C02E2ADC2B901FC700B830B0 /* FirebaseFirestore in Frameworks */,
@@ -181,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				C02E2ADD2B90223000B830B0 /* PostView.swift */,
+				C007A4CF2B918E0A00954B5C /* FeedView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 				C02E2AD02B9015C600B830B0 /* FirebaseAnalyticsWithoutAdIdSupport */,
 				C02E2AD22B9015C600B830B0 /* FirebaseAppCheck */,
 				C02E2ADB2B901FC700B830B0 /* FirebaseFirestore */,
+				C02E2ADF2B91897A00B830B0 /* FirebaseFirestoreSwift */,
 			);
 			productName = socially;
 			productReference = C02E2A962B900E6500B830B0 /* socially.app */;
@@ -338,6 +344,7 @@
 				C02E2AC82B90155400B830B0 /* Post.swift in Sources */,
 				C02E2A9C2B900E6500B830B0 /* ContentView.swift in Sources */,
 				C02E2ADE2B90223000B830B0 /* PostView.swift in Sources */,
+				C007A4D02B918E0A00954B5C /* FeedView.swift in Sources */,
 				C02E2A9A2B900E6500B830B0 /* sociallyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -710,6 +717,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C02E2AC92B9015C600B830B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
+		};
+		C02E2ADF2B91897A00B830B0 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C02E2AC92B9015C600B830B0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
