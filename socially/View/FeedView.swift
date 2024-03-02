@@ -16,7 +16,7 @@ struct FeedView: View {
             posts in
             VStack(alignment: .leading){
                 VStack {
-                    AsyncImage(url: URL(string: posts.imageUrl ?? "")){
+                    AsyncImage(url: URL(string: posts.imageURL ?? "")){
                         phase in
                         switch phase {
                         case .empty:

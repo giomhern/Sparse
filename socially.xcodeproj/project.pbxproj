@@ -10,6 +10,7 @@
 		C007A4D02B918E0A00954B5C /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007A4CF2B918E0A00954B5C /* FeedView.swift */; };
 		C007A4D22B91965B00954B5C /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = C007A4D12B91965B00954B5C /* FirebaseStorage */; };
 		C007A4D42B91966300954B5C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = C007A4D32B91966300954B5C /* FirebaseAuth */; };
+		C007A4D62B92D97700954B5C /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C007A4D52B92D97700954B5C /* AuthViewModel.swift */; };
 		C02E2A9A2B900E6500B830B0 /* sociallyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E2A992B900E6500B830B0 /* sociallyApp.swift */; };
 		C02E2A9C2B900E6500B830B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02E2A9B2B900E6500B830B0 /* ContentView.swift */; };
 		C02E2A9E2B900E6C00B830B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C02E2A9D2B900E6C00B830B0 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		C007A4CF2B918E0A00954B5C /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		C007A4D52B92D97700954B5C /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		C02E2A962B900E6500B830B0 /* socially.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socially.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02E2A992B900E6500B830B0 /* sociallyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sociallyApp.swift; sourceTree = "<group>"; };
 		C02E2A9B2B900E6500B830B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				C02E2AD82B901F9600B830B0 /* PostViewModel.swift */,
+				C007A4D52B92D97700954B5C /* AuthViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				C02E2AD92B901F9600B830B0 /* PostViewModel.swift in Sources */,
 				C02E2AC82B90155400B830B0 /* Post.swift in Sources */,
 				C02E2A9C2B900E6500B830B0 /* ContentView.swift in Sources */,
+				C007A4D62B92D97700954B5C /* AuthViewModel.swift in Sources */,
 				C02E2ADE2B90223000B830B0 /* PostView.swift in Sources */,
 				C007A4D02B918E0A00954B5C /* FeedView.swift in Sources */,
 				C02E2A9A2B900E6500B830B0 /* sociallyApp.swift in Sources */,
