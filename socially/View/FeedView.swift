@@ -26,8 +26,7 @@ struct FeedView: View {
                                 .frame(width: 300, height:200)
                         case .failure:
                             Image(systemName: "photo") 
-                        @unknown default:
-                                EmptyView()
+                        @unknown default:                                EmptyView()
     
                         }
                     }
